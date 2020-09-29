@@ -32,9 +32,9 @@ def wtf_pyramid(etage, etage_initial)
     for i in 0..etage/2 do
         for j in 0..largeur + 1 do
             if j >=etage -i and j <= etage + i
-                print "#"
+                print "⬜"
             else
-                print " "
+                print "  "
             end
         end
         puts
@@ -44,9 +44,9 @@ def wtf_pyramid(etage, etage_initial)
     for i in (etage/2-1).downto(0) do
         for j in (largeur +1).downto(0) do
             if j >= etage - i and j <= etage + i
-                print "#"
+                print "⬜"
             else
-                print " "
+                print "  "
             end
         end
         puts
