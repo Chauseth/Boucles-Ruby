@@ -10,7 +10,8 @@ def check_etage (etage_joueur, etage)
         exit
     else
         if etage_joueur <= 0
-            puts "Dommage, vous avez perdu !"
+            etage_joueur = 0
+            puts "Il faut tout remonter !"
         else
             puts "Vous êtes à l'étage #{etage_joueur}/#{etage}"
         end
